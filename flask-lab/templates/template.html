@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}{{ name }}’s Acronym{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+  <h1 class="mb-3">Hello, I’m {{ name }}!</h1>
+  <p>My favorite acronym is <strong>{{ acronym }}</strong></p>
+
+  <div class="text-center border solid 5px p-4">
+    <img src="static/task2.png"
+         class="rounded w-50"
+         alt="Image">
+  </div>
+</div>
+{% endblock %}
